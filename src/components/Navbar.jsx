@@ -4,6 +4,7 @@ export default function Navbar () {
             <div className="navbar-left">
                 <img src="/images/sideviewsmall.png" alt="" />
                 <h3>Hauwa Abdulkadir</h3>
+            </div>
 
                 <div className="navbar-right">
                     <li><a href="">Home</a></li>
@@ -12,8 +13,7 @@ export default function Navbar () {
                     <li><a href="">Skills</a></li>
                     <li><a href="">Contact</a></li>
                 </div>
-            </div>
-            
+                        
         </div>
     )
 }
