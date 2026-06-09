@@ -1,27 +1,28 @@
 export default function Hero () {
     return (
-        <div className="hero">
+        <div className="hero" id="hero">
             <div className="hero-left">
-                <h1>
+                <span className="name">
                     Hauwa Abdulkadir
-                </h1>
-                <p className="para-top">
-                    Your go-to engineer for Web Development projects
+                </span>
+                <h1 className="para-top">
+                    Software Engineer & AI Enthusiast
+                     </h1>
+                    <p className="para-bottom">
+                       I'm a Microbiologist turned Software Engineer passionate about building technology that solves real-world problems.
                     </p>
-                    <p className="pata-bottom">
-                       I'm a Microbiologist turned Software Engineer.
-                        Building technology solutions for healthcare,
-                        food safety, and water quality.
-                        Bringing your ideas to life with clean, efficient and scalable code.
+                    <p className="para-bottom">
+                        Using React, JavaScript, Python, and Flask, I create modern web applications with a focus on healthcare, food safety, and water quality solutions.
                     </p>
                     <div className="hero-links">
-                        <button>
-                            <a href="">Contact me</a>
-                            </button><button>View projects</button>
+                       
+                            <a href="#contact">Let's Talk</a>
+                           
+                           <a href="#projects">View my Work</a>
                     </div>
             </div>
             <div className="hero-right">
-                <img src="./images/frontview.png" alt="profile photo" />
+                <img src="/images/frontview.png" alt="profile photo" />
             </div>
         </div>
     )

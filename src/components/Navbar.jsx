@@ -1,6 +1,6 @@
 export default function Navbar () {
     return (
-        <div className="navbar">
+        <div className="navbar" id="navbar">
             <div className="navbar-left">
                 <img src="/images/sideviewsmall.png" alt="" />
                 <h3>Hauwa Abdulkadir</h3>

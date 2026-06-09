@@ -27,6 +27,10 @@ html, body {
   height: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  color: var(--clr-Neutral-300);
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +39,7 @@ body {
 linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
 background-size: 60px 60px;
 color: white;
-padding: 0.2rem 2.5rem 1.5rem 2.5rem;
+padding: 0.2rem 5rem 1.5rem 5rem;
   }
 
   img {
@@ -67,10 +71,10 @@ padding: 0.2rem 2.5rem 1.5rem 2.5rem;
    -ms-border-radius: 50%;
    -o-border-radius: 50%;
    transform: scaleX(-1);
-   -webkit-transform: scaleX(-1);
-   -moz-transform: scaleX(-1);
-   -ms-transform: scaleX(-1);
-   -o-transform: scaleX(-1);
+   -webkit-transform:;
+   -moz-transform:;
+   -ms-transform:;
+   -o-transform:;
 }
 
 .navbar-right {
@@ -84,4 +88,25 @@ padding: 0.2rem 2.5rem 1.5rem 2.5rem;
 
 li {
     list-style-type: none;
+}
+
+/* ----------------HERO---------------- */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    min-height: 100vh;
+    gap: 4rem;
+    padding-top: 6rem;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
 }
