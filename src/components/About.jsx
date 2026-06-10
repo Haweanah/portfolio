@@ -26,12 +26,12 @@ export default function About () {
     <div className="why-tech">
       <h3>Why Tech</h3>
       <p>
-      While working in oncology and later in water
-      quality assurance, I saw firsthand how
-      inefficiencies and manual processes could
-      affect both professionals and the people they
-      serve.
-      While working in oncology and water quality assurance, I noticed recurring gaps that could be improved through technology.
+      While working in oncology and later in water quality
+    assurance, I observed inefficiencies and recurring
+    challenges that could be addressed through technology.
+    These experiences sparked my interest in building
+    practical solutions rather than simply identifying
+    problems.
     </p>
     </div>
 <div className="today">
