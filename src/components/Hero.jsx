@@ -1,4 +1,4 @@
-//import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Hero () {
     return (
@@ -27,14 +27,15 @@ export default function Hero () {
                     </div>
                     <div className="social-links">
                     <a href="https://github.com/Haweanah">
+                    <FaGithub/>
                     </a>
 
                     <a href="https://linkedin.com/in/https://www.linkedin.com/in/hauwa-abdulkadir-6281b72bb/">
-                       {/* <FaLinkedin />*/}
+                        <FaLinkedin />
                     </a>
 
                     <a href="mailto:ahauwa48@yahoo.com">
-                       {/* <FaEnvelope />*/}
+                        <FaEnvelope />
                     </a>
                     </div>
             </div>

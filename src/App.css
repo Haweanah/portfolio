@@ -276,7 +276,14 @@ li {
     display: flex;
     align-items: center;
     gap: 4rem;
-    padding: 6rem 0;
+    padding: 2rem 0;
+}
+
+.about-head {
+    padding-top: 6rem;
+    display: flex;
+    justify-self: center;
+    font-size: 2rem;
 }
 
 .about-image,
@@ -288,6 +295,11 @@ li {
 .about-image img {
     width: 100%;
     max-width: 400px;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
 }
 
 @media (max-width: 768px) {
@@ -312,4 +324,14 @@ li {
     .navbar-right {
         display: none;
     }
+
+    .about {
+        display: block;
+        text-align: center;
+    }
+
+    .about-image {
+        display: none;
+    }
+
 }

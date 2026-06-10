@@ -1,16 +1,18 @@
 export default function About () {
     return (
-       <section id="about" className="about">
-  <div className="about-image">
+       <section id="about">
+         <h2 className="about-head">About Me</h2>
+
+   
+ <div className="about">
+   <div className="about-image">
     <img
-      src="/images/sideview.png"
+      src="/images/sideviewlarge.png"
       alt="Hauwa Abdulkadir"
     />
   </div>
 
   <div className="about-content">
-    <h2>About Me</h2>
-
     <p>
       My interest in technology was shaped by my
       experiences working in healthcare and public
@@ -32,6 +34,7 @@ export default function About () {
       problems.
     </p>
   </div>
+ </div>
 </section>
     )
 }
