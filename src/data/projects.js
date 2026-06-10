@@ -5,6 +5,7 @@ export const projects = [
     description:
       "Responsive weather application built with React.",
     technologies: ["React", "CSS", "Weather API"],
+    image: "/images/notenique.png",
     github:
       "https://github.com/Haweanah/weather-app",
     live:
