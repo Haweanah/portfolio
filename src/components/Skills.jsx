@@ -1,50 +1,40 @@
-export default function Skills () {
-    return (
-      <section id="skills" className="skills-section">
-  <h2 className="skills-heading">Skills</h2>
+import { skills } from "../data/skills";
 
-  <div className="skills-grid">
-    <div className="skill-card">
-      <h3>Frontend</h3>
+export default function Skills() {
+    const labels = {
+    frontend: "Frontend",
+    backend: "Backend",
+    tools: "Tools",
+    ai: "AI & Data",
+  };
+  return (
+    <section id="skills" className="skills-section">
+      <h2 className="skills-heading">Skills</h2>
 
-      <div className="skill-tags">
-        <span className="skill-tag">React</span>
-        <span className="skill-tag">JavaScript</span>
-        <span className="skill-tag">HTML5</span>
-        <span className="skill-tag">CSS3</span>
+      <div className="skills-grid">
+
+        {Object.entries(skills).map(([category, items]) => (
+          <div key={category} className="skill-card">
+
+            <h3>
+              <h3>{labels[category]}</h3>
+            </h3>
+
+            <div className="skill-tags">
+              {items.map((skill) => (
+                <span
+                  key={skill}
+                  className="skill-tag"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+          </div>
+        ))}
+
       </div>
-    </div>
-
-    <div className="skill-card">
-      <h3>Backend</h3>
-
-      <div className="skill-tags">
-        <span className="skill-tag">Python</span>
-        <span className="skill-tag">Flask</span>
-        <span className="skill-tag">Node.js</span>
-      </div>
-    </div>
-
-    <div className="skill-card">
-      <h3>Tools</h3>
-
-      <div className="skill-tags">
-        <span className="skill-tag">Git</span>
-        <span className="skill-tag">GitHub</span>
-        <span className="skill-tag">VS Code</span>
-        <span className="skill-tag">Figma</span>
-      </div>
-    </div>
-
-    <div className="skill-card">
-      <h3>AI & Data</h3>
-
-      <div className="skill-tags">
-        <span className="skill-tag">AI Fundamentals</span>
-        <span className="skill-tag">Prompt Engineering</span>
-      </div>
-    </div>
-  </div>
-</section>
-    )
+    </section>
+  );
 }
