@@ -16,9 +16,9 @@ export default function Skills() {
         {Object.entries(skills).map(([category, items]) => (
           <div key={category} className="skill-card">
 
-            <h3>
+            
               <h3>{labels[category]}</h3>
-            </h3>
+            
 
             <div className="skill-tags">
               {items.map((skill) => (
