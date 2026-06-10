@@ -607,5 +607,17 @@ section {
         justify-content: center;
     }
 
+    .imagedesktop {
+        display: none;
+    }
+}
 
+@media (min-width: 1020px) {
+    .image {
+        display: none;
+    }
+
+    .imagedesktop {
+        display: block;
+    }
 }

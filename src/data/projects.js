@@ -5,7 +5,8 @@ export const projects = [
     description:
       "Responsive weather application built with React.",
     technologies: ["React", "CSS", "Weather API"],
-    image: "/images/notenique.png",
+    image: "/images/weatherpage.png",
+    imagedesktop: "/images/weatherpage.png",
     github:
       "https://github.com/Haweanah/weather-app",
     live:
@@ -18,6 +19,8 @@ export const projects = [
     description:
       "Note-taking application built with Flask.",
     technologies: ["Python", "Flask", "SQLite"],
+    image: "/images/notenique.png",
+    imagedesktop: "/images/notenique.png",
     github:
       "https://github.com/Haweanah/notenique",
     live:

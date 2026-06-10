@@ -12,9 +12,15 @@ export default function Projects() {
             className="project-card"
           >
             <div className="project-image">
-              <img
-                src={`/images/project-${project.id}.png`}
+                <img
+                src={project.image}
                 alt={project.title}
+                className="image"
+              />
+              <img
+                src={project.imagedesktop}
+                alt={project.title}
+                className="imagedesktop"
               />
             </div>
 
