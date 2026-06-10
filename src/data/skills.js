@@ -17,4 +17,9 @@ export const skills = {
     "GitHub",
     "Figma",
   ],
+
+  ai: [
+    "AI Fundamentals",
+    "Prompt Engineering",
+  ]
 };
