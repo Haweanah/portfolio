@@ -552,6 +552,128 @@ section {
     transform: translateY(-2px);
 }
 
+/* ----------------EXPERIENCE---------------- */
+
+/* ----------------EXPERIENCE---------------- */
+
+.experience-section {
+    padding: 5rem 0;
+}
+
+.experience-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.experience-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.experience-card {
+    padding: 2rem;
+
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+
+    background: rgba(255,255,255,0.02);
+
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-4px);
+
+    border-color: rgba(255,255,255,0.15);
+}
+
+.experience-period {
+    display: inline-block;
+
+    padding: 0.4rem 0.8rem;
+
+    border-radius: 999px;
+
+    background: rgba(255,255,255,0.06);
+
+    color: var(--clr-Neutral-200);
+
+    margin-bottom: 1rem;
+
+    font-size: 0.9rem;
+}
+
+.experience-card h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.experience-card h4 {
+    color: var(--clr-Neutral-300);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.experience-card p {
+    line-height: 1.8;
+}
+
+/* ----------------CONTACT---------------- */
+
+.contact-section {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-text {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+    color: var(--clr-Neutral-300);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+
+    background: white;
+    color: black;
+
+    transition: all 0.3s ease;
+}
+
+.contact-link {
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    color: white;
+
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover,
+.contact-link:hover {
+    transform: translateY(-3px);
+}
+
 /* ----------------MOBILE---------------- */
 
 
@@ -608,6 +730,12 @@ section {
     }
 
     .imagedesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .image {
         display: none;
     }
 }
