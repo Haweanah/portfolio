@@ -62,6 +62,13 @@ h3,
     justify-content: space-between;
     color: var(--clr-Neutral-300);
     font-family: 'Inter', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-left,
@@ -95,11 +102,19 @@ h3,
   font-size: 1.3rem;
   color: var(--clr-Neutral-300);
   transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .social-links a:hover {
   color: white;
   transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
 }
 .navbar-right {
     gap: 2rem;
@@ -110,10 +125,10 @@ h3,
     text-decoration: none;
     transition: color 0.3s ease;
     position: relative;
-    -webkit-transition: color 0.3s ease;
-    -moz-transition: color 0.3s ease;
-    -ms-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 .navbar-right a::after {
@@ -125,6 +140,10 @@ h3,
     height: 1px;
     background: white;
     transition: width 0.3s ease;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 .navbar-right a:hover::after {
@@ -254,6 +273,10 @@ li {
     border-radius: 10px;
     font-weight: 500;
     transition: all 0.3s ease;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 .resume-link {
@@ -344,10 +367,10 @@ li {
     border-radius: 12px;
     background: rgba(255,255,255,0.02);
     transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
     -webkit-border-radius:;
     -moz-border-radius:;
     -ms-border-radius:;
@@ -402,11 +425,11 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    -webkit-filter: blur(120px);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    -webkit-filter: blur(120px);
 }
 
 .skills-heading {
@@ -427,14 +450,6 @@ section {
     border-radius: 12px;
     background: rgba(255,255,255,0.02);
     transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .skill-card:hover {
