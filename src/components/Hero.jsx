@@ -24,6 +24,12 @@ export default function Hero () {
                             <a href="#contact" className="btn-primary">Let's Talk</a>
                            
                            <a href="#projects" className="btn-secondary">View my Work</a>
+                             <a
+                                href="/resume.pdf"
+                                className="resume-link"
+                            >
+                                Resume →
+                            </a>
                     </div>
                     <div className="social-links">
                     <a href="https://github.com/Haweanah">
@@ -36,16 +42,6 @@ export default function Hero () {
 
                     <a href="mailto:ahauwa48@yahoo.com">
                         <FaEnvelope />
-                    </a>
-
-                    <a
-                        href="/resume.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-secondary"
-                    >
-                        <FaFilePdf />
-                        Download CV
                     </a>
                     </div>
             </div>
