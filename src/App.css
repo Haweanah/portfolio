@@ -619,10 +619,10 @@ section {
 
 .project-links a:hover {
     transform: translateY(-2px);
-    -webkit-transform: translateY(-2px);
-    -moz-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    -o-transform: translateY(-2px);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 /* ----------------EXPERIENCE---------------- */
@@ -644,35 +644,37 @@ section {
 
 .experience-card {
     padding: 2rem;
-
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 16px;
-
     background: rgba(255,255,255,0.02);
-
     transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .experience-card:hover {
     transform: translateY(-4px);
-
     border-color: rgba(255,255,255,0.15);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
 }
 
 .experience-period {
     display: inline-block;
-
     padding: 0.4rem 0.8rem;
-
     border-radius: 999px;
-
     background: rgba(255,255,255,0.06);
-
     color: var(--clr-Neutral-200);
-
     margin-bottom: 1rem;
-
     font-size: 0.9rem;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .experience-card h3 {
@@ -721,11 +723,17 @@ section {
     text-decoration: none;
     padding: 1rem 1.5rem;
     border-radius: 10px;
-
     background: white;
     color: black;
-
     transition: all 0.3s ease;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .contact-link {
@@ -739,6 +747,10 @@ section {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .contact-btn:hover,
@@ -774,10 +786,14 @@ section {
     border-radius: 16px;
     background: rgba(255,255,255,0.02);
     transition: all 0.3s ease;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .certificate-card:hover {
@@ -796,10 +812,10 @@ section {
     border-radius: 999px;
     background: rgba(255,255,255,0.05);
     font-size: 0.85rem;
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    -ms-border-radius: 999px;
-    -o-border-radius: 999px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .certificate-card h3 {
@@ -853,7 +869,7 @@ section {
         justify-content: center;
     }
 
-    .navbar-right {
+    .navbar {
         display: none;
     }
 
