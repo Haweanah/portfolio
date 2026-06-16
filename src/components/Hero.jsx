@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
 
 export default function Hero () {
     return (
@@ -44,6 +44,7 @@ export default function Hero () {
                         rel="noopener noreferrer"
                         className="btn-secondary"
                     >
+                        <FaFilePdf />
                         Download CV
                     </a>
                     </div>
