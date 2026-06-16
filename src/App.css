@@ -348,10 +348,10 @@ li {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .background:hover,
@@ -403,6 +403,10 @@ section {
     transform: translate(-50%, -50%);
     z-index: -1;
     -webkit-filter: blur(120px);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .skills-heading {
@@ -427,6 +431,10 @@ section {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .skill-card:hover {
@@ -458,6 +466,14 @@ section {
     color: var(--clr-Neutral-200);
     font-size: 0.9rem;
     transition: all 0.3s ease;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .skill-tag:hover {
@@ -482,20 +498,28 @@ section {
 .project-card {
     display: flex;
     gap: 2rem;
-
     padding: 2rem;
-
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 16px;
-
     background: rgba(255,255,255,0.02);
-
     transition: all 0.3s ease;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-4px);
     border-color: rgba(255,255,255,0.15);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
 }
 
 .project-image {
@@ -506,6 +530,10 @@ section {
     width: 100%;
     border-radius: 12px;
     object-fit: cover;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 
 .project-content {
@@ -533,14 +561,14 @@ section {
 
 .tech-pill {
     padding: 0.5rem 1rem;
-
     border-radius: 999px;
-
     border: 1px solid rgba(255,255,255,0.08);
-
     background: rgba(255,255,255,0.03);
-
     color: var(--clr-Neutral-200);
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
 }
 
 .project-links {
@@ -551,12 +579,17 @@ section {
 
 .project-links a {
     text-decoration: none;
-
     padding: 0.8rem 1.25rem;
-
     border-radius: 10px;
-
     transition: all 0.3s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .project-links a:first-child {
@@ -571,9 +604,11 @@ section {
 
 .project-links a:hover {
     transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
 }
-
-/* ----------------EXPERIENCE---------------- */
 
 /* ----------------EXPERIENCE---------------- */
 
@@ -758,6 +793,27 @@ section {
 
 .certificate-card p {
     color: var(--clr-Neutral-300);
+}
+
+
+/* ----------------FOOTER---------------- */
+
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+
+    text-align: center;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer p {
+    color: var(--clr-Neutral-300);
+}
+
+.copyright {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
 }
 
 /* ----------------MOBILE---------------- */
