@@ -30,12 +30,21 @@ export default function Hero () {
                     <FaGithub/>
                     </a>
 
-                    <a href="https://linkedin.com/in/https://www.linkedin.com/in/hauwa-abdulkadir-6281b72bb/">
+                    <a href="https://www.linkedin.com/in/hauwa-abdulkadir-6281b72bb/">
                         <FaLinkedin />
                     </a>
 
                     <a href="mailto:ahauwa48@yahoo.com">
                         <FaEnvelope />
+                    </a>
+
+                    <a
+                        href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-secondary"
+                    >
+                        Download CV
                     </a>
                     </div>
             </div>
