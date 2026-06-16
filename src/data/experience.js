@@ -14,7 +14,7 @@ role: "Scientific Officer",
 company: "Ministry of Water Resources",
 period: "2016 - Present",
 description:
-"Lead quality control and quality assurance activities for water distributed within Ilorin metropolis. Perform laboratory analyses, evaluate water quality standards, and support public health initiatives through data-driven monitoring and compliance practices.",
+"Lead quality control and quality assurance activities for potable water distribution. Perform laboratory analyses, evaluate water quality standards, and support public health initiatives through data-driven monitoring and compliance practices.",
 },
 
 {
@@ -23,6 +23,6 @@ role: "Oncology Unit Support Staff",
 company: "Federal Medical Centre",
 period: "2016",
 description:
-"Worked closely with healthcare professionals in the oncology unit, supporting patient care, sample collection, and cancer awareness programs. This experience revealed opportunities for technology-driven improvements in healthcare delivery and inspired a passion for building solutions that address real-world challenges.",
+"Worked closely with healthcare professionals in the oncology unit, performing phlebotomy, supporting patient care, sample collection, and breast and cervical cancer awareness programs. This experience revealed opportunities for technology-driven improvements in healthcare delivery and inspired a passion for building solutions that address real-world challenges.",
 },
 ];

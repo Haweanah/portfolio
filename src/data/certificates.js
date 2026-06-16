@@ -24,6 +24,6 @@ export const certificates = [
     id: 4,
     title: "Bachelor of Science (Microbiology)",
     issuer: "University of Ilorin",
-    year: "2011",
+    year: "2015",
   },
 ];
